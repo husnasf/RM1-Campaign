@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(165, 192, 221);
+    background-image: url(Background.jpg);
+}
+
+    header {
+        background-color: rgb(186, 191, 230,0.7);
+        text-align: center;
+        padding: 1em; 
+        border-radius: 10px;
+
+    }
+    h1 {
+        color: rgb(17, 63, 103);
+        text-align: center; 
+        font-family: initial;
+        font-size: xx-large;
+        
+    }
+    h2 {
+        color: rgb(56, 89, 139);
+        text-align: center;
+        font-size: larger;
+        font-family: cursive;
+    }
+    h7{
+        color: rgb(17, 63, 103); 
+    }
+
+form {
+        background-color: rgb(192, 205, 255, 0.75);
+        padding: 1em ;
+        margin: 0.1em;
+        border-radius: 10px;
+    }
+legend {
+    color: rgb(17, 63, 103);
+}
+section {
+        background-color: rgb(192, 205, 255, 0.75);
+        text-align: justify;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 1em;
+        border-radius: 10px;
+    }
+.rm1-campaign {
+    display: grid;
+        gap: 10px;
+        grid-template-areas: 
+        "head head head head"
+        "form form section section"
+        
+        ;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+           
+header{
+                grid-area: head;
+            }
+
+            form{
+                grid-area: form;
+            }
+            section{
+                grid-area: section;
+            }
